@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jamshid Abdul Jaleel - Executive Resume</title>
+
+<style>
+:root {
+    --bg: #f5f7fb;
+    --card: #ffffff;
+    --primary: #0f172a;
+    --secondary: #475569;
+    --accent: #3b82f6;
+    --muted: #64748b;
+    --line: #e2e8f0;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--primary);
+}
+
+.layout {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.sidebar {
+    width: 240px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    padding: 30px 20px;
+}
+
+.sidebar nav {
+    background: var(--card);
+    border-radius: 14px;
+    padding: 18px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+}
+
+.sidebar a {
+    display: block;
+    text-decoration: none;
+    color: var(--secondary);
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.sidebar a:hover {
+    background: #eff6ff;
+    color: var(--accent);
+}
+
+.main {
+    flex: 1;
+    padding: 40px;
+}
+
+.wrapper {
+    background: var(--card);
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+}
+
+header {
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 16px;
+    margin-bottom: 26px;
+}
+
+h1 { margin: 0; font-size: 30px; }
+
+.headline {
+    color: var(--secondary);
+    font-size: 15px;
+    margin-top: 6px;
+}
+
+.contact {
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--muted);
+}
+
+.contact span {
+    display: inline-block;
+    margin-right: 16px;
+    margin-bottom: 6px;
+}
+
+.pdf-btn {
+    margin-top: 16px;
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.section {
+    border-bottom: 1px solid var(--line);
+    padding: 18px 0;
+}
+
+.section:last-child { border-bottom: none; }
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.section-content { margin-top: 10px; }
+
+.section.collapsed .section-content { display: none; }
+
+h2 { margin: 0; font-size: 18px; }
+
+h3 {
+    font-size: 15px;
+    margin: 18px 0 2px;
+    color: var(--secondary);
+}
+
+.meta {
+    font-size: 13px;
+    color: var(--muted);
+}
+
+ul {
+    margin: 6px 0 12px 18px;
+    padding: 0;
+}
+
+li { margin: 4px 0; }
+
+strong.label {
+    display: block;
+    margin-top: 10px;
+    color: var(--secondary);
+}
+
+@media (max-width: 900px) {
+    .layout { flex-direction: column; }
+    .sidebar { width: 100%; height: auto; position: relative; }
+    .sidebar nav { display: flex; flex-wrap: wrap; }
+    .main { padding: 10px; }
+    .wrapper { border-radius: 0; padding: 24px; }
+}
+
+@media print {
+    body { background: white; }
+    .sidebar, .pdf-btn { display: none; }
+    .wrapper { box-shadow: none; padding: 0; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="layout">
+
+<aside class="sidebar">
+    <nav>
+        <a href="#summary">Summary</a>
+        <a href="#skills">Skills & Tools</a>
+        <a href="#experience">Experience</a>
+        <a href="#certification">Certification</a>
+        <a href="#education">Education</a>
+        <a href="#personal">Personal Details</a>
+
+    </nav>
+</aside>
+
+<main class="main">
+<div class="wrapper">
+
+<header>
+    <h1>Jamshid Abdul Jaleel</h1>
+    <div class="headline">Logistics Specialist | Facility Manager | Customer Service | Admin Support</div>
+
+    <div class="contact">
+        <span><strong>Phone:</strong> +91 9207461742 (Whatsapp & Botim)</span>
+        <span><strong>Email:</strong> jamshidjassy@gmail.com</span>
+        <span><strong>Location:</strong> Kannur, Kerala, India</span>
+    </div>
+
+    <button class="pdf-btn" onclick="window.print()">Download PDF</button>
+</header>
+
+<div id="summary" class="section">
+    <div class="section-header">
+        <h2>Professional Summary</h2>
+        <div>▾</div>
+    </div>
+    <div class="section-content">
+        Seasoned professional with 16+ years’ experience in logistics coordination, shipping operations, and admin support. Expertise in freight coordination (SEA/AIR), 3PL, warehouse management, import/export documentation, and customer service. Adept in leading teams, ERP systems, and high-pressure operations. Proven UAE track record in port operations, customs clearance, and transshipment. Proficient in remote and on-site business operations, covering customer service, service coordination (cleaning services, short-term rentals, Airbnb), logistics coordination, and accounts administration.
+    </div>
+</div>
+
+<div id="skills" class="section">
+    <div class="section-header">
+        <h2>Skills & Tools Known</h2>
+        <div>▾</div>
+    </div>
+    <div class="section-content">
+
+        <strong class="label">Key Skills</strong>
+        <ul>
+            <li>Logistics Operations (Sea, Air, Land)</li>
+            <li>Supply Chain Management</li>
+            <li>Import & Export Documentation</li>
+            <li>Warehouse & Inventory Management</li>
+            <li>Customer Service Management</li>
+            <li>Facility & Staff Management</li>
+            <li>Accounting & Financial Reporting</li>
+            <li>Customs Regulations & Documentation, SASO Certification</li>
+            <li>Fleet Management</li>
+            <li>Service Coordination & Management</li>
+        </ul>
+
+        <strong class="label">Tools Known</strong>
+        <ul>
+            <li>Calogi, Emersal II (Dubai Trade)</li>
+            <li>MS Office, G-Suite, Advanced MS Excel, Brilion – Maid Soft</li>
+            <li>Canva, ChatGPT, Gemini, Meta Business</li>
+            <li>Zoho Books, Tally, Manager.io</li>
+        </ul>
+
+    </div>
+</div>
+
+<div id="experience" class="section">
+    <div class="section-header">
+        <h2>Professional Experience</h2>
+        <div>▾</div>
+    </div>
+    <div class="section-content">
+
+        <h3>Operations & Accounts Supervisor (Remote)</h3>
+        <div class="meta">Fabulous Cleaning Services | Dubai – UAE / Remote / March -2025 Till Present</div>
+        <ul>
+            <li>Respond to service inquiries, manage bookings, and issue invoices.</li>
+            <li>Follow up on customer payments and maintain financial accuracy.</li>
+            <li>Create and monitor daily schedules for cleaners and drivers.</li>
+            <li>Handle urgent cleaning requests by reallocating resources efficiently.</li>
+            <li>Liaise with cleaning supervisors to address customer instructions and feedback.</li>
+            <li>Maintain expense/income records and submit monthly reports to management.</li>
+        </ul>
+
+        <h3>Export Business Development Executive (Remote)</h3>
+        <div class="meta">M/s Dero Overseas Pvt Ltd | Haryana, India | Remote | Oct -2024 to Feb 2025</div>
+        <ul>
+            <li>Identified and compiled international buyer databases.</li>
+            <li>Initiated communication through cold emails, WhatsApp, and phone outreach.</li>
+            <li>Negotiated pricing and coordinated initial lead conversations.</li>
+            <li>Assisted with onboarding and maintaining lead records.</li>
+        </ul>
+
+        <h3>Freight Broker (Remote)</h3>
+        <div class="meta">Freelancer / Canada (Remote) / Sept -2024</div>
+        <ul>
+            <li>Identified and onboarded new shippers to expand the client base.</li>
+            <li>Generated leads independently through online research and tools such as Google.</li>
+            <li>Conducted cold calls to find prospective clients.</li>
+        </ul>
+
+        <h3>Sports Academy & Facility Manager</h3>
+        <div class="meta">M/s Olympic Sports Academy | Kadakkavoor, Attingal, India | 2018 – Aug-2024</div>
+        <ul>
+            <li>Oversaw day-to-day operations of the sports facility and managed procurement activities.</li>
+            <li>Recruited and trained staff, ensuring alignment with SOP standards.</li>
+            <li>Handled accounting and financial reporting, including preparation of daily activity reports.</li>
+            <li>Led digital marketing initiatives to increase brand visibility and customer engagement.</li>
+        </ul>
+
+        <h3>Transshipment Controller</h3>
+        <div class="meta">M/s United Arab Shipping Company (UASC) | Dubai, UAE | Oct 2016 – Nov 2017</div>
+        <ul>
+            <li>Managed transhipment operations at Red Sea Gateway, Korfakkan, Umm Al Quwain, and Sharjah ports.</li>
+            <li>Uploaded discharge/load lists and IMCO declarations for port and customs authorities.</li>
+            <li>Liaised with POL and POD terminals to resolve port-related issues and container discrepancies.</li>
+        </ul>
+
+        <h3>Export Customer Service Specialist</h3>
+        <div class="meta">M/s United Arab Shipping Company (UASC) | Dubai, UAE | Feb 2014 – Sep 2016</div>
+        <ul>
+            <li>Managed transhipment operations at Red Sea Gateway, Korfakkan, Umm Al Quwain, and Sharjah ports.</li>
+            <li>Uploaded discharge/load lists and IMCO declarations for port and customs authorities.</li>
+            <li>Liaised with POL and POD terminals to resolve port-related issues and container discrepancies.</li>
+        </ul>
+
+        <h3>Import Customer Service Specialist</h3>
+        <div class="meta">M/s United Arab Shipping Company (UASC) | Dubai, UAE | Jan 2010 – Feb 2014</div>
+        <ul>
+            <li>Managed and resolved issues related to import containers, ensuring smooth operations and timely deliveries.</li>
+            <li>Provided import customer service by communicating with origin ports to address discrepancies.</li>
+            <li> Finalise and submit discharge lists of import containers.</li>
+            <li>Uploaded EDI manifests to port and customs authorities.</li>
+            <li>Coordinated trucking services for deliveries.</li>
+        </ul>
+
+        <h3>Logistics Cum Freight Coordinator</h3>
+        <div class="meta">M/s Deal Distribution Intl FZE | Dubai, UAE | Aug 2007 – Dec 2009</div>
+        <ul>
+            <li>Oversaw comprehensive shipping documentation and Warehouse Management Systems (WMS).</li>
+            <li>Managed complete air and sea import and export operations for cosmetic and perfume clients, handling shipment planning based on client requirements. Prepared all necessary shipping and customs documentation, coordinated bookings with airlines, shipping lines, and trucking companies, and ensured smooth end-to-end logistics execution.</li>
+            <li>Led warehouse operations, supervising destuffing activities, ensuring accurate GRN preparation, and maintaining stock accuracy. Managed picking and packing based on specific export transport mode requirements, prepared export packing lists, coordinated loading schedules, and ensured shipments were properly arranged for container stuffing or Land and Air dispatch.</li>
+        </ul>
+
+        <h3>Accounts Assistant</h3>
+        <div class="meta">M/s Taxation Consultancy Center | Trivandrum, Kerala | Mar 2006 – Jul 2007</div>
+
+        <h3>Accounts Trainee (Part-Time)</h3>
+        <div class="meta">M/s Kadakkavoor Cooperative Bank Ltd | Jul 2003 – Aug 2004</div>
+
+    </div>
+</div>
+
+<div id="certification" class="section">
+    <div class="section-header">
+        <h2>DSAA Certification</h2>
+        <div>▾</div>
+    </div>
+    <div class="section-content">
+        <strong>DSAA Certification</strong><br>
+        Dubai Shipping Agents Association | 2010
+        <ul>
+            <li>Shipping Basics</li>
+            <li>Bills of Lading</li>
+            <li>INCO Terms</li>
+            <li>Vessel Operations</li>
+            <li>Cargo Claims</li>
+            <li>Dubai Customs Laws</li>
+        </ul>
+    </div>
+</div>
+
+<div id="education" class="section">
+    <div class="section-header">
+        <h2>Education</h2>
+        <div>▾</div>
+    </div>
+    <div class="section-content">
+        <ul>
+            <li>Master of Commerce (M.Com)</li>
+            <li>Bachelor of Commerce (B.Com)</li>
+            <li>Diploma in Pharmacy</li>
+        </ul>
+    </div>
+</div>
+<div id="" class="section">
+    <div class="section-header">
+        <h2>Personal Details</h2>
+        <div>▾</div>
+    </div>
+    <div class="section-content">
+        <ul>
+            <li><strong>Languages:</strong> English, Hindi, Tamil, Malayalam</li>
+            <li><strong>Date of Birth:</strong> 01 Jan 1981</li>
+        </ul>
+    </div>
+</div>
+
+</div>
+</main>
+</div>
+
+<script>
+document.querySelectorAll(".section-header").forEach(header => {
+    header.addEventListener("click", () => {
+        header.parentElement.classList.toggle("collapsed");
+    });
+});
+</script>
+
+</section>
+</body>
+</html>
